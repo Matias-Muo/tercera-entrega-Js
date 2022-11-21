@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+   
 }
 
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
@@ -28,16 +29,10 @@ a {
     text-decoration: none;
 }
 
-.header-index{
-    background-color:#4b33a8;
-}
 
-.wrapper {
-    display: grid;
-    grid-template-rows: 10% 90%;
-    background-color:#785ce9;
-   
-}
+
+
+
 
 
 
@@ -45,7 +40,7 @@ a {
     font-weight: 400;
     font-size: 1.3rem;
     text-align: center;
-    color: #ececec;
+    color:#4b33a8;
 }
 
 .menu {
@@ -57,7 +52,7 @@ a {
 .boton-menu {
     background-color: transparent;
     border: 0;
-    color: var(--clr-white);
+    color:#4b33a8;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -66,12 +61,14 @@ a {
     padding: 1rem;
     font-size: .85rem;    
     text-align: center;
+
 }
 
 .boton-menu.active {
    
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    color: #4b33a8;
     
 }
 
@@ -124,7 +121,7 @@ a {
 }
 
 main {
-    background-color: var(--clr-white);
+    
     margin: 1rem;
     margin-left: 0; 
     padding: 3rem;
@@ -185,7 +182,7 @@ main {
 
 .header-carrito{
    
-    background-color: #4b33a8;
+    background-color: white;
 }
 
 .nav-carrito{

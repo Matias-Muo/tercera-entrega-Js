@@ -40,7 +40,7 @@ a {
     font-weight: 400;
     font-size: 1.3rem;
     text-align: center;
-    color:#4b33a8;
+    color:var(--clr-main);
 }
 
 .menu {
@@ -52,7 +52,7 @@ a {
 .boton-menu {
     background-color: transparent;
     border: 0;
-    color:#4b33a8;
+    color: var(--clr-main);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ a {
    
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    color: #4b33a8;
+    color: var(--clr-main);
     
 }
 
@@ -182,7 +182,7 @@ main {
 
 .header-carrito{
    
-    background-color: white;
+    background-color:var(--clr-white);
 }
 
 .nav-carrito{
@@ -193,7 +193,7 @@ main {
 }
 
 .titulo-principal-carrito{
-    color: #ececec;
+    color: var(--clr-white);
 }
 
 .icon-w{
@@ -201,7 +201,7 @@ main {
 }
 
 .main-carrito{
-    background-color:#785ce9;
+    background-color:var(--clr-main);
 }
 
 .contenedor-carrito {

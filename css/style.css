@@ -357,6 +357,13 @@ main {
 
     }
 
+    .carrito-producto{
+
+        display: flex;        
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     .icon-w{
         width: 60%;
     }

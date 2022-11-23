@@ -254,6 +254,7 @@ main {
 .carrito-acciones {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .carrito-acciones-vaciar {
@@ -355,6 +356,9 @@ main {
         flex-wrap: wrap;
         justify-content: space-around;
 
+    }
+    .disabled {
+        display: none;
     }
 
     .carrito-producto{

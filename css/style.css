@@ -32,7 +32,9 @@ a {
 
 
 
-
+.header-index{
+    background-color: var(--clr-gray);
+}
 
 
 
@@ -352,6 +354,7 @@ main {
         flex-wrap: wrap;
         justify-content: space-around;
         background-color: var(--clr-white); 
+        padding-bottom: 3%;
     }
 
 

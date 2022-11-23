@@ -317,9 +317,9 @@ main {
     display: none;
 }
 
+/*media queries Version tablet hasta 1200 px*/
 
-
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
    
     .header-index {
         display: flex;     
@@ -360,7 +360,7 @@ main {
         background-color:var(--clr-white);
         margin-left: 3%;
         margin-right: 0%;
-        justify-content: center;
+        
     }
 
     .hamburguesa-imput{
@@ -369,6 +369,7 @@ main {
     }
     
     .hamburguesa-label{        
+        
         box-sizing: border-box;
         display: inline-block;
         border: 1px solid black;

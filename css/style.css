@@ -46,6 +46,7 @@ a {
 .menu {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: .5rem;
 }
 
@@ -118,6 +119,7 @@ a {
 .texto-footer {
     color: var(--clr-main-light);
     font-size: .85rem;
+    text-align: center;
 }
 
 main {
@@ -130,6 +132,7 @@ main {
 .titulo-principal {
     color: var(--clr-main);
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .contenedor-productos {
@@ -140,7 +143,7 @@ main {
 }
 
 .producto-imagen {
-    max-width: 100%;
+    width: 100%;
     border-radius: 1rem;
 }
 
@@ -212,7 +215,7 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: var(--clr-main);
+    color:var(--clr-white);
 }
 
 .carrito-productos {
@@ -305,3 +308,87 @@ main {
 }
 
 
+/*media queries Version Celulares hasta 600 px*/
+
+@media screen and (max-width: 600px) {
+   
+    .header-index {
+        display: flex;        
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: var(--clr-white); 
+    }
+
+
+    .logo {
+        display: flex;
+        background-color:var(--clr-white);
+        margin-left: 3%;
+        margin-right: 0%;
+        justify-content: center;
+    }
+
+    .contenedor-productos {
+        background-color: #fdfbfb;
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #fdfdfd;
+        margin-left: 0%;
+        margin-right: 0%;      
+    }
+      
+    .producto-imagen{
+        width: 100%;
+      
+    }    
+
+    .carrito-producto{
+        display: flex;        
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+
+    }
+
+    .icon-w{
+        width: 60%;
+    }
+
+
+}
+  
+  /*media queries Version Tablets de 600 a 1200 px
+  @media screen and (max-width: 1200px) {
+    body {
+      background-color: #fdfbfb;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      background-color: #fdfdfd;
+      margin-left: 0%;
+      margin-right: 0%; }
+      body .header {
+        display: flex;
+        grid-area: header;
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #ffffff; }
+        body .header .logo {
+          display: flex;
+          background-color: #fdfdfb;
+          margin-left: 3%;
+          margin-right: 0%; }
+        body .header .img_header {
+          margin-bottom: 0.5%; } }
+  

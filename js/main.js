@@ -57,7 +57,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 01",
         imagen: "./img/camisetas/01.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -67,7 +67,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 02",
         imagen: "./img/camisetas/02.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -77,7 +77,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 03",
         imagen: "./img/camisetas/03.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -87,7 +87,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 04",
         imagen: "./img/camisetas/04.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -97,7 +97,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 05",
         imagen: "./img/camisetas/05.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -107,7 +107,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 06",
         imagen: "./img/camisetas/06.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -117,7 +117,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 07",
         imagen: "./img/camisetas/07.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000
@@ -127,7 +127,7 @@ const productos = [
         titulo: "Terrenos-suburbanos 08",
         imagen: "./img/camisetas/08.jpg",
         categoria: {
-            nombre: "terrenos-suburbanos",
+            nombre: "Terrenos-suburbanos",
             id: "Terrenos-suburbanos"
         },
         precio: 1000

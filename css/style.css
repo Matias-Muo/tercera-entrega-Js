@@ -346,15 +346,14 @@ main {
       
     }    
 
-    .carrito-producto{
+    .contenedor-carrito{
+        display: flex;
+    }
+
+    .carrito-acciones{
         display: flex;        
-        position: sticky;
-        top: 0%;
-        z-index: 2;
-        align-items: flex-end;
         flex-wrap: wrap;
         justify-content: space-around;
-
 
     }
 

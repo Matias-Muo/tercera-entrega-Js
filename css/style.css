@@ -50,6 +50,14 @@ a {
     gap: .5rem;
 }
 
+.hamburguesa-imput{
+    display: none;
+}
+
+.hamburguesa-label{
+    display: none;
+}
+
 .boton-menu {
     background-color: transparent;
     border: 0;
@@ -181,6 +189,7 @@ main {
 }
 
 
+
 /** CARRITO **/
 
 .header-carrito{
@@ -309,15 +318,12 @@ main {
 }
 
 
-/*media queries Version Celulares hasta 600 px*/
+/*media queries Version Celulares hasta 650 px*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
    
     .header-index {
-        display: flex;        
-        position: sticky;
-        top: 0%;
-        z-index: 2;
+        display: flex;     
         align-items: flex-end;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -332,6 +338,44 @@ main {
         margin-right: 0%;
         justify-content: center;
     }
+
+    .hamburguesa-imput{
+        display:none;
+        
+    }
+    
+    .hamburguesa-label{        
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;        
+       
+    }
+
+    li {
+        display: block;
+        background: lightgrey;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+    }
+
+    .menu{
+        display: none;
+    }
+      
+      input:checked  ~ ul{
+        display:block;
+    }
+
+
 
     .contenedor-productos {
         background-color: #fdfbfb;
@@ -357,6 +401,7 @@ main {
         justify-content: space-around;
 
     }
+
     .disabled {
         display: none;
     }
@@ -372,33 +417,8 @@ main {
         width: 60%;
     }
 
+    
 
 }
   
-  /*media queries Version Tablets de 600 a 1200 px
-  @media screen and (max-width: 1200px) {
-    body {
-      background-color: #fdfbfb;
-      display: grid;
-      grid-template-columns: 50% 50%;
-      background-color: #fdfdfd;
-      margin-left: 0%;
-      margin-right: 0%; }
-      body .header {
-        display: flex;
-        grid-area: header;
-        position: sticky;
-        top: 0%;
-        z-index: 2;
-        align-items: flex-end;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background-color: #ffffff; }
-        body .header .logo {
-          display: flex;
-          background-color: #fdfdfb;
-          margin-left: 3%;
-          margin-right: 0%; }
-        body .header .img_header {
-          margin-bottom: 0.5%; } }
-  
+ 

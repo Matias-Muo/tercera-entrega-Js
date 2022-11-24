@@ -34,6 +34,7 @@ a {
 
 .header-index{
     background-color: var(--clr-gray);
+    
 }
 
 
@@ -140,9 +141,11 @@ main {
 }
 
 .titulo-principal {
-    color: var(--clr-main);
+    color: var(--clr-white);
     margin-bottom: 2rem;
     text-align: center;
+    background-color: var(--clr-main);
+    border-radius: 1rem;
 }
 
 .contenedor-productos {
@@ -190,6 +193,21 @@ main {
     color: var(--clr-white);
 }
 
+.arriba{
+    text-align: center;
+    margin-top: 1rem;
+    border:solid 1px #4b33a8;
+    border-radius: 1rem;
+}
+
+.cont-footer{
+    text-align: center;
+}
+.logo-whatsapp{
+    width: 5%;
+    margin-top: 1rem;
+    
+}
 
 
 /** CARRITO **/
@@ -295,7 +313,7 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: var(--clr-main);
+    background-color: var(--clr-gray);
     padding: 1rem;
     color: var(--clr-white);
     text-transform: uppercase;
@@ -347,6 +365,12 @@ main {
 /*media queries Version Celulares hasta 650 px*/
 
 @media screen and (max-width: 650px) {
+
+    main{
+        margin: 0;
+        background-color: var(--clr-main-light);
+        
+    }
    
     .header-index {
         display: flex;     
@@ -406,10 +430,9 @@ main {
 
 
     .contenedor-productos {
-        background-color: #fdfbfb;
+        background-color:var(--clr-main-light);
         display: grid;
-        grid-template-columns: 100%;
-        background-color: #fdfdfd;
+        grid-template-columns: 100%;        
         margin-left: 0%;
         margin-right: 0%;      
     }

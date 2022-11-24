@@ -390,6 +390,19 @@ main {
         
     }
 
+    .logo-carrito{
+        display: flex;
+        background-color:var(--clr-white);
+        margin-left: 3%;
+        margin-right: 0%;
+        padding-top: 1rem;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 1.3rem;        
+        color:var(--clr-main);
+
+    }
+
     .hamburguesa-imput{
         display:none;
         

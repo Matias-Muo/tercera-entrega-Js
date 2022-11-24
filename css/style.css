@@ -93,7 +93,7 @@ a {
     right: 0;
     background-color: transparent;
     border-bottom-right-radius: .5rem;
-    box-shadow: 0 1rem 0 var(--clr-white);
+    box-shadow: 0 1rem 0 transparent;
 }
 
 .boton-menu.active::after {
@@ -105,7 +105,7 @@ a {
     right: 0;
     background-color: transparent;
     border-top-right-radius: .5rem;
-    box-shadow: 0 -1rem 0 var(--clr-white);
+    box-shadow: 0 -1rem 0 transparent;
 }
 
 .boton-menu > i.bi-hand-index-thumb-fill,
@@ -131,6 +131,7 @@ a {
     color: var(--clr-main-light);
     font-size: .85rem;
     text-align: center;
+    padding-top: 1rem;
 }
 
 main {
@@ -197,6 +198,7 @@ main {
     text-align: center;
     margin-top: 1rem;
     border:solid 1px #4b33a8;
+    background-color: var(--clr-gray);
     border-radius: 1rem;
 }
 

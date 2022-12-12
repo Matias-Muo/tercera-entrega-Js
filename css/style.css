@@ -232,6 +232,7 @@ main {
 
 .icon-w{
     width: 10%;
+    
 }
 
 .main-carrito{
@@ -322,6 +323,7 @@ main {
     cursor: pointer;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    text-align: center;
 }
 
 .conversor{

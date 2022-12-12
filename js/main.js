@@ -277,3 +277,13 @@ function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
+
+
+Swal.fire({
+    title: 'BIENVENIDOS A PPROPIEDADES CHIVILCOY',
+    text: 'INGRESAR',
+    imageUrl: './img/camisetas/07.jpg',
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: 'Custom image',
+  })

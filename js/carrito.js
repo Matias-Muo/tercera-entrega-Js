@@ -110,7 +110,7 @@ function comprarCarrito() {
 function convertir() {
     let valores = parseInt(document.getElementById("valor").value);
     let resultado = 0;
-    let pesos = 300;
+    let pesos = 320;
     if (valores > 1 ){
         resultado = valores * pesos;
         alert("El precio en Pesos es de: $" + resultado);
